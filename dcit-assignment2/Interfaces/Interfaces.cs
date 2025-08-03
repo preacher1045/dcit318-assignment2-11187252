@@ -27,6 +27,12 @@
 
             // Instance of Car and Bicycle classes
 
+            Car myCar = new Car();
+            myCar.move();
+
+            Bicycle myBicycle = new Bicycle();
+            myBicycle.move();
+
         }
     }
 }
