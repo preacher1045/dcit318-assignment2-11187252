@@ -1,23 +1,27 @@
 ﻿namespace InheretanceOverride
 {
 
-    //Base class
+    // Base class
     public class Animal
     {
+        // Auto-Property
         public string Name { get; set; }
 
+        // Constructor
         public Animal(string name)
         {
             Name = name;
         }
 
+        // Method
         public virtual void MakeSound() => Console.WriteLine($"{Name} squils.....");
 
     }
 
-    //derived classes
+    // Derived classes
     public class Dog : Animal
     {
+
         public Dog(string name) : base(name) { }
 
         public override void MakeSound() => Console.WriteLine("Bark....");
@@ -33,7 +37,7 @@
     {
         static void Main(string[] args)
         {
-            //Instance of Animal class
+            //Instance of Animal class : Base class
             Animal myAnimal = new Animal("Benny");
             myAnimal.MakeSound();
 
