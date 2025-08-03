@@ -33,6 +33,8 @@
 
         public override void MakeSound() => Console.WriteLine("Meow....");
     }
+
+    //Main
     internal class Inheretance_Method_Overriding
     {
         static void Main(string[] args)

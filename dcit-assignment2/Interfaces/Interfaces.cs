@@ -17,10 +17,11 @@
         public void move() => Console.WriteLine("Bicycle is moving..");
     }
 
+    //  Main
     internal class Interfaces
     {
         
-        //  main function
+        
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
